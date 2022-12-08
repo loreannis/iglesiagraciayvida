@@ -1,0 +1,258 @@
+.contenedor{
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Navbar*/
+.contenedor1{
+    width: 100%;
+    display: inline;
+}
+.container-fluid{
+    display: inline;
+}
+.hambuguesita{
+    justify-content: end;
+text-align: end;    
+}
+.nombre{
+    font: 400 15pt 'Noto Serif';
+    color: #FFFF;
+}
+.logo-principal{
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.colorverde{
+    background-color: #000000;
+}
+.opciones{
+    color: #FFFF;
+}
+.nav-item{
+    margin: 0px 20px;
+}
+
+
+/*Carousel*/
+.nombrecompleto{
+    color: #FFFF;
+    font: 400 24pt "Noto Serif";
+}
+.slogan{
+    color: #FFFF;
+    font: 400 20pt "Source Sans Pro";
+}
+.carousel-caption{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.fondo{
+    background-color: black;
+}
+.fondo img{
+    opacity: 0.4;
+}
+
+@media only screen and (max-width:985px){
+    .navbar-nav{
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .carousel-caption{
+        bottom: 165px;
+    }
+    .carousel-caption h1{
+       font-size: 18px
+    }
+    .carousel-caption p{
+        font-size: 12px
+     }
+}
+@media only screen and(max-width:566px){
+    .carousel-caption h1{
+        font-size: 14px;
+    }
+    .carousel-caption p{
+        font-size: 8px;
+    }
+}
+
+
+/*Quienes somos*/
+.contenedor9{
+    margin: 5px 5px
+}
+.contenedor-quienesomos{
+    width: 100%;
+    gap:20px;
+    box-sizing: content-box;
+    flex-wrap:wrap;
+    margin: 5px 5px;
+    
+}
+.imgsomos{
+    width: 50%;
+    box-sizing: border-box;
+}
+.letra{
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+
+/*Reuniones*/
+.contenedor-reu{
+    gap:20px;
+    display: inline-block
+}
+.reuniones{
+    justify-content: center;
+    text-align: center;
+    font: 400 30pt "Noto Serif";
+}
+.reuniones-bloque{
+    gap: 20px;
+}
+.contenedor-reuniones{
+    gap: 50px;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.card{
+    border-radius: 5%;
+    width: 20px;
+    height: 40px;
+}
+.card-group{
+    gap: 30px;
+}
+.MultiCarousel-inner{
+    background-color: aquamarine;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/*Formularios Nuevos*/
+.form{
+    background-color: #0E4C9C;
+    width: 90%;
+     max-width: 400px;
+     border-radius: 1em;
+     padding: 3.5em;
+     align-items: center;
+}
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form_title{
+    text-align: center;
+    font: 400 30pt "Source Sans Pro";
+}
+.form_input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+.form_input--message{
+    resize: none;
+}
+/*Prueba reuniones*/
+.container{
+    width: 70%;
+    padding: 10px 40px;
+  }
+.container .swiper-container{
+    width: 30%;
+    height: 20%;
+  }
+
+  .container .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: start;
+      box-shadow: 0px 4px 4px gray rgba(0, 0, 0, 0.5);
+      gap: 10px;
+      margin: 0px 20px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .container .swiper-slide .card-description{
+    padding:1rem 1rem;
+    margin: 10px;
+}
+.container .swiper-slide .card-title,.container .swiper-slide .card-text{
+   margin-bottom: .5rem;
+   
+}
+.container .swiper-slide .card-link{
+   text-align: center;
+  
+}
+.container .swiper-slide .card-link a{
+    text-decoration: none;
+    color: #1d6ce2;
+}
+.swiper-button-next{
+    right: 26px !important;
+}
+.swiper-button-prev{
+    left: 26px !important;
+}
+
+
+/*Contáctanos*/
+.contenedor-rrss{
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px
+}
+.Iconos{
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.card1{
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*Footer*/
+.nombrefinal{
+    padding: 20px 0px;
+    color: #FFFF;
+    font: 400 15pt "Noto Serif";
+}
+
+.footer{
+    width: 100%;
+}
