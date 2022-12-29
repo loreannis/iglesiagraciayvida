@@ -42,6 +42,12 @@ text-align: end;
 
 
 /*Carousel*/
+.carousel-item{
+    object-fit: scale-down;
+    height: 100vh;
+    width: 100%;
+
+}
 .nombrecompleto{
     color: #FFFF;
     font: 400 24pt "Noto Serif";
@@ -89,7 +95,8 @@ text-align: end;
 
 /*Quienes somos*/
 .contenedor9{
-    margin: 5px 5px
+    margin: 5px 5px;
+    background-color:#0E4C9C;
 }
 .contenedor-quienesomos{
     width: 100%;
@@ -97,6 +104,7 @@ text-align: end;
     box-sizing: content-box;
     flex-wrap:wrap;
     margin: 5px 5px;
+    background-color:#0E4C9C;
     
 }
 .imgsomos{
@@ -108,40 +116,9 @@ text-align: end;
     padding: 30px;
     box-sizing: border-box;
     margin-top: 50px;
+    color:#FFFF
 }
 
-
-/*Reuniones*/
-.contenedor-reu{
-    gap:20px;
-    display: inline-block
-}
-.reuniones{
-    justify-content: center;
-    text-align: center;
-    font: 400 30pt "Noto Serif";
-}
-.reuniones-bloque{
-    gap: 20px;
-}
-.contenedor-reuniones{
-    gap: 50px;
-    justify-content: center;
-    margin: 50px 0px;
-}
-.card{
-    border-radius: 5%;
-    width: 20px;
-    height: 40px;
-}
-.card-group{
-    gap: 30px;
-}
-.MultiCarousel-inner{
-    background-color: aquamarine;
-    width: 100%;
-    max-width: 600px;
-}
 
 
 /*Formularios Nuevos*/
@@ -175,57 +152,11 @@ text-align: end;
 .form_input--message{
     resize: none;
 }
-/*Prueba reuniones*/
-.container{
-    width: 70%;
-    padding: 10px 40px;
-  }
-.container .swiper-container{
-    width: 30%;
-    height: 20%;
-  }
 
-  .container .swiper-slide {
-    position: relative;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    border-radius: 15px;
-    text-align: start;
-      box-shadow: 0px 4px 4px gray rgba(0, 0, 0, 0.5);
-      gap: 10px;
-      margin: 0px 20px;
-  }
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  .container .swiper-slide .card-description{
-    padding:1rem 1rem;
-    margin: 10px;
-}
-.container .swiper-slide .card-title,.container .swiper-slide .card-text{
-   margin-bottom: .5rem;
-   
-}
-.container .swiper-slide .card-link{
-   text-align: center;
-  
-}
-.container .swiper-slide .card-link a{
-    text-decoration: none;
-    color: #1d6ce2;
-}
-.swiper-button-next{
-    right: 26px !important;
-}
-.swiper-button-prev{
-    left: 26px !important;
+/*Reuniones*/
+.card{
+    border-radius: 5rem;
 }
 
 
