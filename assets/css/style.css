@@ -44,7 +44,6 @@ text-align: end;
 /*Carousel*/
 .carousel-item{
     object-fit: scale-down;
-    height: 100vh;
     width: 100%;
 
 }
@@ -157,6 +156,14 @@ text-align: end;
 /*Reuniones*/
 .card{
     border-radius: 5rem;
+    margin: 20px 0px;
+}
+.container{
+    margin: 20px 0px;
+    gap: 20px;
+    }
+.card-img-top{
+    align-content: center;
 }
 
 
@@ -174,6 +181,16 @@ text-align: end;
 .card1{
     justify-content: center;
     text-align: center;
+    background-color: #0E4C9C;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    align-content: center;
+    padding: auto;
+}
+.card-body{
+    font: 400 10pt "Source Sans Pro";
+    color: #FFFF;
 }
 
 
